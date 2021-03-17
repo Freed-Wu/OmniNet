@@ -116,7 +116,7 @@ if __name__ == "__main__":
     parser.add_argument('model_file', help='Location to pretrained model file.')
     parser.add_argument('task', help='Task to predict for.')
     parser.add_argument('--image', default=None, help='Image file to encode')
-    parser.add_argument('--video', default=None, help='Video file to encodre')
+    parser.add_argument('--video', default=None, help='Video file to encode')
     parser.add_argument('--text', default=None, help='Text to encode')
     parser.add_argument('-v', '--verbose', action='store_true')
     args = parser.parse_args()
